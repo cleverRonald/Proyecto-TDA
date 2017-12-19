@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dlanor.proyectotda.Registro">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Usuario"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        /> <EditText
+    android:id="@+id/txtDni"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="DNI"
+    android:inputType="number"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    />
+    <EditText
+        android:id="@+id/txtNomUsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/txtApeUsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dia"
+            android:textColor="#000000"
+            android:textSize="15dp"
+
+            />
+        <EditText
+            android:id="@+id/txtDia"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mes"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/txtMes"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Año"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/txtAnio"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btRegisUsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registar usuario"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Ingree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Secion"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

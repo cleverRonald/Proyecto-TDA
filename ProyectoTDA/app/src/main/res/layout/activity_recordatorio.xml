@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fbfff700"
+    tools:context="com.example.dlanor.proyectotda.Recordatorio">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Recodatorio"
+       android:textSize="30dp"
+       android:textAlignment="center"
+       android:textColor="#000000"
+       />
+       <ListView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/moscumpl"></ListView>
+   </LinearLayout>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MultAgen"
+        android:layout_margin="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:fab_addButtonColorNormal="@color/colorPrimary"
+        app:fab_addButtonColorPressed="@color/colorPrimary"
+        app:fab_labelStyle="@style/MenuAgenMul"
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recor_a"
+            app:fab_icon="@drawable/ic_event_black_24dp"
+
+            app:fab_title="Editar recordatorio"
+
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recor_b"
+            app:fab_icon="@drawable/ic_event_black_24dp"
+            app:fab_title="Agenda"
+
+
+
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recor_c"
+            app:fab_icon="@drawable/ic_event_black_24dp"
+            app:fab_title="Horario"
+
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fab_icon="@drawable/ic_event_black_24dp"
+            app:fab_size="mini"
+            app:fab_colorDisabled="#edda06"
+            app:fab_title="Salir"
+            android:onClick="salir4"
+            />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</RelativeLayout>

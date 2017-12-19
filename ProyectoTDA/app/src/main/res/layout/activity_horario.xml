@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1bd85"
+    tools:context="com.example.dlanor.proyectotda.Horario">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Horario"
+            android:textSize="30dp"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="20dp"
+                android:text="Hora"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Lunes"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Martes"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="20dp"
+                android:text="Miercoles"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Jueves"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Viernes"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="50dp"
+                android:text="7-9"
+                android:background="@color/colorAccent"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#ffffff"
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#00ffd4"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="50dp"
+
+                android:background="#ffee00"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#d27bf7"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#ff8000"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="43dp"
+                android:layout_height="50dp"
+                android:text="9-11"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#00ffd4"
+
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#ffee00"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="50dp"
+
+                android:background="#d27bf7"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#ff8000"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#7bf781"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="43dp"
+                android:layout_height="50dp"
+                android:text="11-13"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#ffee00"
+
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#d27bf7"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="50dp"
+
+                android:background="#ff8000"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#7bf781"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#d27bf7"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="43dp"
+                android:layout_height="50dp"
+                android:text="13-15"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#d27bf7"
+
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#ff8000"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="50dp"
+
+                android:background="#7bf781"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#d27bf7"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#ffee00"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="43dp"
+                android:layout_height="50dp"
+                android:text="15-17"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#ff8000"
+
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#7bf781"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="50dp"
+
+                android:background="#d27bf7"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#ffee00"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#00ffd4"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="43dp"
+                android:layout_height="50dp"
+                android:text="17-19"
+                android:background="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#7bf781"
+
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+
+                android:background="#d27bf7"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="50dp"
+
+                android:background="#ffee00"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#00ffd4"
+                android:textSize="15dp" />
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="#ffffff"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MultAgen"
+        android:layout_margin="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:fab_addButtonColorNormal="@color/colorPrimary"
+        app:fab_addButtonColorPressed="@color/colorPrimary"
+        app:fab_labelStyle="@style/MenuAgenMul"
+        >
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hor_a"
+            app:fab_icon="@drawable/ic_event_black_24dp"
+
+            app:fab_title="Editar horario"
+
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hor_b"
+            app:fab_icon="@drawable/ic_event_black_24dp"
+            app:fab_title="Agenda"
+
+
+
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hor_c"
+            app:fab_icon="@drawable/ic_event_black_24dp"
+            app:fab_title="Recordatorio"
+
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_event_black_24dp"
+            app:fab_size="mini"
+            app:fab_colorDisabled="#edda06"
+            app:fab_title="Salir"
+            android:onClick="salir3"
+            />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
